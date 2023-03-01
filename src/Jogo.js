@@ -24,13 +24,13 @@ function Jogo() {
   const [corPalavra, setCorPalavra] = useState("preto")
 
   function iniciarJogo() {
-    
+
+    palavraSorteada = palavras[Math.floor(Math.random() * palavras.length)]
     setPalavraSecreta(palavraSorteada.split("").map((char) => " _ " ))
     setLetraEscolhida([])
     setCorPalavra("preto")
-    palavraSorteada = palavras[Math.floor(Math.random() * palavras.length)]
     setChutes(0);
-
+    alert(palavraSorteada)
 
   }
   
