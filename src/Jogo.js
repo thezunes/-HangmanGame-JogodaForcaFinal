@@ -30,8 +30,6 @@ function Jogo() {
     setLetraEscolhida([])
     setCorPalavra("preto")
     setChutes(0);
-    alert(palavraSorteada)
-
   }
   
 
